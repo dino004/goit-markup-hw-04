@@ -291,7 +291,7 @@ a {
 
 .job {
   margin-top: 10px;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
   font-size: 16px;
   text-align: center;
 }
@@ -422,18 +422,105 @@ a {
   width: 1200px;
 }
 
+/* стилізація іконок секції плюси */
 
-.clock {
+.icon-pluses-box {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
-  outline: 1px red solid;
+  background-color: var(--secondary-bg-color);
+  border-radius: 4px;
+  /* outline: 1px red solid; */
 }
 
-.clock-icon {
+.icon-pluses {
   width: 70px;
   height: 70px;
+}
+/* 
+.mail {
+display: flex;
+}
+
+.mail-icon {
+  width: 16px;
+  height: 12px;
+} */
+
+/* посилання на соціальні сайти .svg */
+.social-sites {
+  display: flex;
+  justify-content: center;
+
+}
+
+.social-sites-link {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  /* outline: 1px solid green; */
+}
+
+.social-sites-link:not(:last-child) {
+  margin-right: 10px;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: #afb1b8;
+}
+
+.social-sites-link:hover,
+.social-sites-link:focus {
+  background-color: var(--accent-color);
+}
+.social-icon:hover,
+.social-icon:focus {
+  fill: var(--header-bg-color);
+}
+
+/* icons clients */
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+
+}
+
+.clients-link {
+  display: flex;
+  width: 170px;
+  height: 92px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #AFB1B8;
+  border-radius: 4px;
+}
+
+.clients-link:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-icon {
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  border-color: var(--accent-color);
+}
+.clients-icon:hover,
+.clients-icon:focus {
+  fill: var(--accent-color);
 }
