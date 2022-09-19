@@ -421,3 +421,19 @@ a {
   margin-right: auto;
   width: 1200px;
 }
+
+
+.clock {
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 1px red solid;
+}
+
+.clock-icon {
+  width: 70px;
+  height: 70px;
+}
