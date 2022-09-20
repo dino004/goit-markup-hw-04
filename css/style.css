@@ -191,6 +191,8 @@ a {
   border-radius: 4px;
   border: none;
 
+  cursor: pointer;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
@@ -523,4 +525,33 @@ display: flex;
 .clients-icon:hover,
 .clients-icon:focus {
   fill: var(--accent-color);
+}
+
+
+/* приєднуйтесь футер */
+
+.join {
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  color: var(--header-bg-color);
+}
+
+.social-footer {
+  margin-top: 12px;
+  margin-left: 70px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+
+.soc {
+  margin-bottom: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.soc .social-icon {
+  fill: var(--header-bg-color);
 }
