@@ -521,7 +521,7 @@ display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  fill: currentColor;
+  color: #afb1b8;
   /* outline: 1px solid green; */
 }
 
@@ -532,16 +532,17 @@ display: flex;
 .social-icon {
   width: 20px;
   height: 20px;
-  fill: #afb1b8;
+  fill: currentColor;
 }
 
 .social-sites-link:hover,
 .social-sites-link:focus {
+  color: var(--header-bg-color);
   background-color: var(--accent-color);
 }
 .social-icon:hover,
 .social-icon:focus {
-  fill: var(--header-bg-color);
+  fill: currentColor;
 }
 
 /* icons clients */
@@ -578,23 +579,24 @@ display: flex;
   fill: currentColor;
 }
 
-.clients-icon:hover,
-.clients-icon:focus {
-  fill: var(--accent-color);
-}
-
 .clients-link:hover,
 .clients-link:focus {
+  color: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-
+.clients-icon:hover,
+.clients-icon:focus {
+  fill: currentColor;
+}
 
 /* приєднуйтесь футер */
 
 .join {
   margin-top: 0;
   margin-bottom: 20px;
+
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--header-bg-color);
 }
